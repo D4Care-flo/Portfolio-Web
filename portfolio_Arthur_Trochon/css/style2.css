@@ -1,0 +1,425 @@
+/**********************************
+   FONTS
+ ***********************************/
+
+
+@font-face {
+    font-family: "FuturaPTHeavy";
+    src: url("futura/FuturaPTHeavy.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTLight";
+    src: url("futura/FuturaPTBook.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTBold";
+    src: url("futura/FuturaPTBold.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTMedium";
+    src: url("futura/FuturaPTMedium.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTCondBook";
+    src: url("futura/FuturaPTCondBook.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTCondBold";
+    src: url("futura/FuturaPTCondBold.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTHeavy";
+    src: url("futura/FuturaPTHeavy.otf") format("woff2");
+}
+
+@font-face {
+    font-family: "FuturaPTLightOblique";
+    src: url("futura/FuturaPTLightOblique.otf") format("woff2");
+}
+
+
+
+/**********************************
+   GENERAL
+ ***********************************/
+
+* {
+    outline-style: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+footer
+{
+    margin-top: auto;
+}
+
+.title
+{
+    font-family: FuturaPTBold, serif;
+}
+
+.subtitle
+{
+    font-family: FuturaPTLightOblique, serif;
+}
+
+.text, p
+{
+    font-family: FuturaPT, serif;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-divider
+{
+    width: 100px;
+    height: 2px;
+    background: #1E3D59;
+    margin: 4vh auto;
+}
+
+/********************************
+BUTTON TOP
+ *******************************/
+
+a#cRetour{
+    border-radius:3px;
+    padding:10px;
+    font-size:15px;
+    text-align:center;
+    color:#fff;
+    background:rgba(0, 0, 0, 0.25);
+    position:fixed;
+    right:20px;
+    opacity:1;
+    z-index:99999;
+    transition:all ease-in 0.2s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    text-decoration: none;
+}
+a#cRetour:before{ content: "\25b2"; }
+
+a#cRetour:hover{
+    background:rgba(0, 0, 0, 1);
+    transition:all ease-in 0.2s;
+}
+a#cRetour.cInvisible{
+    bottom:-35px;
+    opacity:0;
+    transition:all ease-in 0.5s;
+}
+
+a#cRetour.cVisible{
+    bottom:20px;
+    opacity:1;
+}
+
+
+/*******************************
+  NAVBAR
+ **************************/
+
+
+
+.navbar-brand
+{
+    font-family: FuturaPTHeavy, serif;
+    text-transform: uppercase;
+}
+
+.nav-link
+{
+    font-family: FuturaPTLight, serif;
+    text-transform: uppercase;
+
+}
+
+/*******************************
+  ACCUEIL
+ **************************/
+#Accueil
+{
+    height: 60vh;
+    margin-top: 5vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+#Accueil h1
+{
+    font-size: 3.5em;
+}
+
+#Accueil .text
+{
+    color: #747474;
+}
+
+#Accueil .subtitle
+{
+    padding-bottom: 10vh;
+}
+
+/*******************************
+  IMAGE BACKGROUND ACCUEIL
+ **************************/
+
+
+#ImageBackgroundAccueil
+{
+    height: 120vh;
+    width: 100%;
+    background-color: #FFC13B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+
+}
+
+#ImageBackgroundAccueil .title h1
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+
+
+#ImageBackgroundAccueil img
+{
+    width: 50%;
+    height: auto;
+    margin-bottom: 5vh;
+
+}
+
+#ImageBackgroundAccueil .row.img
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+/*******************************
+  A PROPOS
+ **************************/
+
+#Apropos .row-title h1
+{
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+#Apropos .subtitle
+{
+    color: #747474;
+}
+
+.portfolio-block
+{
+    width: 100%;
+
+    margin: 2vh auto;
+    padding: 4vh 3vw;
+    background-color: #F5F0E1;
+    text-align: center;
+
+}
+
+.much-longer
+{
+
+}
+
+.portfolio-block h4
+{
+    color: #1E3D59;
+    text-transform: uppercase;
+
+}
+
+.portfolio-block p
+{
+    font-family: FuturaPTLight, serif;
+}
+
+.etiquettes
+{
+    background-color: #F5F0E1;
+    margin: 1vh 0;
+    height: 90%;
+    width: 30%;
+    color: #1E3D59;
+    font-weight: bold;
+    border: none;
+}
+
+.linkedIn
+{
+    background-color: #1E3D59;
+    margin: 1vh 0;
+    height: 90%;
+    width: 45%;
+    color: #F5F0E1;
+    font-weight: bold;
+    padding: 1vh 1vw;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedIn:hover
+{
+    background-color: #F5F0E1;
+    color: #1E3D59;
+    font-weight: bold;
+    padding: 1vh 1vw;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*******************************
+  IMAGE BACKGROUND COMPETENCES
+ **************************/
+
+#ImageBackgroundCompetences
+{
+    height: 100vh;
+    background-color: #1E3D59 ;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ImageBackgroundCompetences img
+{
+    width: 50%;
+    height: auto;
+
+}
+
+#ImageBackgroundCompetences .block-gif
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+#ImageBackgroundCompetences .block-gif .subtitle
+{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+/*******************************
+  COMPETENCES
+ **************************/
+
+#Competences
+{
+    margin-top: 10vh;
+}
+
+#Competences .row-title h1
+{
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+.carousel-item
+.col, .col-sm, .col-md {
+    margin: 8px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+
+/* nothing below this point is needed*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700,800,900&display=swap');
+
+
+
+@media screen and (min-width: 200px) and (max-width: 767px) {
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
