@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d067a8c-64ce-4587-8617-f586a25d047d" name="Default Changelist" comment="" />
+    <list default="true" id="7d067a8c-64ce-4587-8617-f586a25d047d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/analysis-1841158_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/artificial-intelligence-4550606_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/business-4051773_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/computer-2982270_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/math-1547018_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/math-work-4711302_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/paper-3213924_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/rock-n-roll-monkey-FTfjMijq-Ws-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/images/student-849825_1920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_Arthur_Trochon/accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/accueil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_Arthur_Trochon/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/css/style2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_Arthur_Trochon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio_Arthur_Trochon/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio_Arthur_Trochon/js/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +51,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1rioTkIT2P4PEjs1ZqF1Y5VXN1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,12 +80,28 @@
       <workItem from="1619541882975" duration="4667000" />
       <workItem from="1619618507727" duration="8971000" />
       <workItem from="1619718215120" duration="12535000" />
-      <workItem from="1619795993007" duration="1749000" />
+      <workItem from="1619795993007" duration="1861000" />
+      <workItem from="1619963274850" duration="10947000" />
+      <workItem from="1620053176950" duration="6404000" />
+      <workItem from="1620143917074" duration="12037000" />
+      <workItem from="1620230165849" duration="1334000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1019" y="502" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619544675818">
@@ -59,5 +112,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1619618962927" />
+    <state x="1145" y="598" key="Github.ShareDialog" timestamp="1619797850626">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1145" y="598" key="Github.ShareDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1619797850626" />
+    <state x="1023" y="405" key="Github.UntrackedFilesDialog" timestamp="1619797865101">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1023" y="405" key="Github.UntrackedFilesDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1619797865101" />
   </component>
 </project>
